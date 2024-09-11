@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+
+    div{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+    imge{
+        width:800px;
+        height: 500px;
+        margin-left: 80%;
+        margin-right: 80%;
+    }
+    .scroe{
+        align-items: center;
+    }
+    .scroeDiv{
+        align-items: center;
+    }
+</style>
+<body>
+    <div id="scoreDiv"><h1>scroe will be here</h1><span id="counter"><h1>0</h1></span></div>
+    
+        <img src="" alt="gif on the way" id="gifHolder">
+        <div style="flex-direction: row;">
+            <input type="button" value="yes" id="yes" style="background-color: rgb(9, 230, 56);width:100px;height: 25px;border-radius: 10px;" >
+            <input type="button" value="no" id="no" style="background-color: red;width:100px;height: 25px;border-radius: 10px;">
+        </div>
+        <h2 >score </h2>
+
+        <p id="score">0</p>
+</div>
+
+    <script src="./yes or no Api.js"></script>
+</body>
+</html>
